@@ -1,2 +1,5 @@
  kubectl get po -o wide   --> command to check pod kaun se node prr run ho rha
 when we use -o yaml then hume yaml format me milega output
+always need to off swap in all node to check the swap is enable or not please use command [free -h]
+to stop the swap [swapoff -a]
+need to download docker on each node
