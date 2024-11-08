@@ -1,0 +1,2 @@
+ kubectl get po -o wide   --> command to check pod kaun se node prr run ho rha
+when we use -o yaml then hume yaml format me milega output
