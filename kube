@@ -3,3 +3,4 @@ when we use -o yaml then hume yaml format me milega output
 always need to off swap in all node to check the swap is enable or not please use command [free -h]
 to stop the swap [swapoff -a]
 need to download docker on each node
+kubernetes cluster install krne k liye hume kubernetes adm or kops install krna hota hai
