@@ -1,0 +1,18 @@
+kubernetes phile kewal docker ko support krta tha abhi sabko krta hai.
+image spec , runtimespec,
+dockershim chaiye --> kubernetes support this
+we can replace all the docker command with nerdctl command
+CRI = container runtime interface
+cri work with all container tool crictl 
+ETCD - data key value form me hota hai update krna easy hota hai.
+ETcD default port -2379
+v2 use most
+Kube API server --
+api server sabse individual connect krta hai response ko deta hai 
+controller manager 
+node controller== node ki health ko dekhta hai hrr 4sec me aur 40 sec tak wait krta hai agr agr halat shi nhi hai node ki to 5min wait kreaga esk baad sabhi pod dusre node prr shift krr dega
+repicaset controller==
+kube scheduller bas decide krta hai kaun sa pod kaun se node prr jayega pod create kubelet krega.
+scheduller phile dekhta hai kaun sa node sufficient memmory k hisab se phir pod ko node prr bhejta hai
+kubeproxy ye jo bhi services traffic aayega usko backend me pod ko batne ka kaam krte hai ye use krte hai ip table esk liye.
+scale up krna hai to nya pod banoo n ki usi pod me container. 
