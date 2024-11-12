@@ -1,0 +1,7 @@
+replication controller ek pod ho ya dher sare sabko watch krta hai agr pod unheathy hua to nya create krwayega.
+replication controller load ko balance krta aur scale krta hai
+replica set sab replication ctroller wala sab kaam krr leta hai but vo upgraded version hai aur vo nye pod ko bhi manage krta hai jo replica set k under nh bna.
+replicaset also monitor the pods.
+labels under selector help krta hai replica set ko pta lagane me kaunse pods ko hume manage krna hai.
+hume replica set ka number increase krna hoto hum kaise krenge usk liye many ways jaise yml file update kro aur "kubectl replace -f filename" command chla do .
+second way "kubectl scale --replicas=6 -f file name"
