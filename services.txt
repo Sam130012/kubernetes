@@ -1,0 +1,7 @@
+services help krti hai application ko connect krne mein 
+services types 1) nodeport 2)clusterIP 3)Load balancer
+1) pod k port ko node k port se map krk access krwata hai external source ko.
+ * services have own ip address called as cluster ip.
+ * target port nhi doge to automatically ekk service k port ko target port consider krega.
+ * aur agr nodeport nhi doge to vo 30000 - 32767 k bich me koi bhi free post ko consider krr lega.
+ * spec k ander selector aur usk ander pods k label ko daal do to services pod ko lelenge.
