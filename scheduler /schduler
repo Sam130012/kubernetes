@@ -1,0 +1,3 @@
+scheduler run hoker dekhta hai ki kaunse pod ko node nhi assign hai phir usko assign krta hai whi prr scheduler hi jab exisitng pod me data change karna chahe to nhi krr sakta but vo nya binding object bna krr
+de sakte ho pod ko to nya node assign ho jayega.
+mannually schdule krne k liye bss yaml me " nodeName=node001" ye de dedo aur nya pod create krr do.
