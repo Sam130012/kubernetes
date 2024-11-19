@@ -1,1 +1,8 @@
+What to do and how to do is an imperative approach.
+what to do is an declative approach.
 
+kubectl apply command jb bhi use kroge to vo check krega resources hai agr nhi to nya create karega aur kubernetes(Live object configuration) mein bhi ek file banegi kuch aur status k saath.aur 
+last applied configuration file create hogi json format mein.
+last applied configuration help krta hai hume check krne me ki kaun sa type missing hai.
+
+last applied stored in live object configuration.
