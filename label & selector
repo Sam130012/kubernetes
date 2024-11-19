@@ -1,0 +1,4 @@
+labels humesa metadata k under aate hai aur kkey value format mein hote hain 
+jitna bhi label chahoo create krr sakte ho
+label aur selector k help se hum data ko filter krr sakte hain. " kubectl get pods --selector app=App1"
+agr multiple selector ekk saath use krna hai to , use krr lena.
