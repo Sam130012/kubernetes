@@ -1,0 +1,7 @@
+namespace automatically create krta kubernetes.
+namespace k ander sab resoureces rehte hai like pods deployment and all.
+threetypes of name spaces created when any cluster created kube-system , kube-public, befault.
+agar hume sabhi pod ko dekhna hai sabhi namespace mein "kubectl get pods --all-namespace"
+for dev "kubectl get pods --namespace=dev"
+command to create pod to any specific namespace "kubectl run redis --image=redis -n finance"
+agr 2 koi same naam ka port do ya do se jada namespace me ho to hume full addreess dena hoga."kubectl get pods
