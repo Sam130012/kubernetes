@@ -1,0 +1,7 @@
+taints node prr lagya jata hai aur toleration pod prr lagaaya jata hai
+taints lagane se koi bhi pod entry nhi lega uss node mein, whi pod entry le sakta hai uss node mein jisko uss taints ka toleration mila ho.
+
+kubectl taint nodes node-name key=value:taint-effect ( PreferNoSchdule | NoExecute | NoSchdule)
+kubectl taint nodes node1 app=blue:NoSchdule
+toleration jo hoti hai vo define hoti pod k manifest file mein 
+taint aur toleration pod ko ye nhi batte ki vo kha jayega , vo node ko baate hai ki tum kaise pod ko rakh sakte ho.
